@@ -14,7 +14,7 @@ public class StudentTester {
         StudentDemo s1 = new StudentDemo();
         s1.setName("yuvraj");
         System.out.println(s1.getName());
-        StudentDemo s2 = new StudentDemo("verma");
+       /* StudentDemo s2 = new StudentDemo("verma");
         StudentDemo s3 = new StudentDemo("yuvraj");
         System.out.println(s2.getName());
         StudentDemo[] list = new StudentDemo[3];
@@ -24,6 +24,8 @@ public class StudentTester {
         for(StudentDemo i:list){
             System.out.println(i.getName());
             
-        }
+        }*/
+        s1.setSid("991549287");
+        System.out.print(s1.getSid());
     }
 }

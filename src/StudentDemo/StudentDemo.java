@@ -11,11 +11,14 @@ package StudentDemo;
  */
 public class StudentDemo {
     private String name;
+    private String sId;
+
     public StudentDemo(){
-       name=""; 
-    }
-public StudentDemo(String n){
+       name="";
+       }
+public StudentDemo(String n, String sId){
     this.name = n;
+    this.sId = sId;
 }
     public String getName() {
         return name;
@@ -23,6 +26,12 @@ public StudentDemo(String n){
 
     public void setName(String name) {
         this.name = name;
+    }
+    public String getSid() {
+        return sId;
+    }
+    public void setSid(String sId){
+        this.sId = sId;
     }
     
 }
