@@ -27,5 +27,6 @@ public class StudentTester {
         }*/
         s1.setSid("991549287");
         System.out.print(s1.getSid());
+        System.out.prinln("testing Fetch");
     }
 }
